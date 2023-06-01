@@ -21,16 +21,16 @@ class index extends PureComponent {
             <div className='left-top'>
               <ModuleTitle>
                 <i className='iconfont'>&#xe78f;</i>
-                <span>今日流量态势</span>
+                <span>全国居民人均可支配收入</span>
               </ModuleTitle>
               <div className='title-dis'>
                 <span>
-                  平均接纳次数(小时):
-                  <span className='title-dis-keyword'>{accessFrequency}次</span>
+                  总绝对量:
+                  <span className='title-dis-keyword'>{accessFrequency}千元</span>
                 </span>
                 <span>
-                  流量峰值:
-                  <span className='title-dis-keyword'>{peakFlow}M</span>
+                  同比增长:
+                  <span className='title-dis-keyword'>{peakFlow}%</span>
                 </span>
               </div>
               {/* 图表 */}
@@ -45,7 +45,7 @@ class index extends PureComponent {
             <div className='left-bottom'>
               <ModuleTitle>
                 <i className='iconfont'>&#xe88e;</i>
-                <span>用户数据状态</span>
+                <span>全国各省GDP排行</span>
               </ModuleTitle>
               {/* 图表 */}
               <UserSituation userSitua={userSitua}></UserSituation>

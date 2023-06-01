@@ -2,71 +2,51 @@
 module.exports = {
   'GET /api/rightPageData': {
     browseCategories: {
-      data: [782, 621.2, 322.1, 525.3, 265, 224],
+      data: [6554.2, 1329.8, 5288.0, 1323.0, 2930.0, 2367.8, 1933.0, 525.4],
       indicator: [
-        {
-          name: '食物',
-          max: 1000,
-        },
-        {
-          name: '娱乐',
-          max: 1000,
-        },
-        {
-          name: '运动',
-          max: 1000,
-        },
-        {
-          name: '家居',
-          max: 1000,
-        },
-        {
-          name: '机械',
-          max: 1000,
-        },
-        {
-          name: '学习',
-          max: 1000,
-        },
+        { max: 8000, name: '食品' },
+        { max: 3000, name: '衣着' },
+        { max: 6000, name: '居住' },
+        { max: 3000, name: '生活' },
+        { max: 3500, name: '交通' },
+        { max: 3000, name: '文娱' },
+        { max: 3000, name: '医疗' },
+        { max: 3000, name: '其他' },
       ],
     },
     userIdentityCategory: {
       data: [
         {
-          name: '公务',
-          value: 57,
+          name: '工资性收入',
+          value: 6554,
         },
         {
-          name: '学生',
-          value: 167,
+          name: '经营净收入',
+          value: 1330,
         },
         {
-          name: '教师',
-          value: 123,
+          name: '财产净收入',
+          value: 5288,
         },
         {
-          name: '军区',
-          value: 55,
-        },
-        {
-          name: '企业',
-          value: 198,
+          name: '转移净收入',
+          value: 1323,
         },
       ],
     },
     offline: {
       feedback: [
         {
-          title: '服务质量',
-          number: 90,
+          title: '食品衣着',
+          number: 35,
         },
         {
-          title: '交互体验',
-          number: 82,
+          title: '交通教育',
+          number: 24,
         },
         {
-          title: '安全防护',
-          number: 85,
+          title: '居住生活',
+          number: 40,
         },
       ],
       offlinePortalData: {

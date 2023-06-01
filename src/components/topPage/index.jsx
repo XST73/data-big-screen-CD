@@ -4,6 +4,7 @@ import {
   Decoration10,
   Decoration8,
   Decoration6,
+  Decoration5,
 } from '@jiaminghi/data-view-react';
 
 import { TopBox, TimeBox } from './style';
@@ -12,7 +13,7 @@ class index extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-      title: '大数据可视化平台',
+      title: '居民收入和消费水平',
       timeStr: '',
       weekday: [
         '星期天',

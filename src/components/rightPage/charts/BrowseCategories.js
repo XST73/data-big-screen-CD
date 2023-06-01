@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import Chart from '../../../utils/chart';
 import { BrowseCategoriesOptions } from './options';
 
-// 关联数据类别
+// 消费数据类别
 class BrowseCategories extends PureComponent {
   constructor(props) {
     super(props);

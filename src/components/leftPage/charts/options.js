@@ -92,7 +92,7 @@ export const trafficOptions = (params) => ({
   },
   series: [
     {
-      name: '出口流量',
+      name: '城镇收入',
       type: 'line',
       smooth: true, //是否平滑
       lineStyle: {
@@ -141,10 +141,10 @@ export const trafficOptions = (params) => ({
           shadowBlur: 20,
         },
       },
-      data: params.outData,
+      data: params.townData,
     },
     {
-      name: '入口流量',
+      name: '农村收入',
       type: 'line',
       smooth: true, //是否平滑
       // 阴影
@@ -193,12 +193,11 @@ export const trafficOptions = (params) => ({
           shadowBlur: 20,
         },
       },
-      data: params.inData,
+      data: params.countryData,
     },
   ],
 });
 
 export const userOptions = (params = {}) => ({
-  header: params.header,
   data: params.data,
 });

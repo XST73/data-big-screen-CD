@@ -26,7 +26,7 @@ class index extends PureComponent {
           <div className='right-top'>
             <ModuleTitle>
               <i className='iconfont'>&#xe7f7;</i>
-              <span>关联数据类别分布</span>
+              <span>消费类别分布</span>
             </ModuleTitle>
             <div className='right-top-content'>
               <BrowseCategories
@@ -43,7 +43,7 @@ class index extends PureComponent {
         <RightCenterBox>
           <ModuleTitle>
             <i className='iconfont'>&#xe7fd;</i>
-            <span>平均用户类别排布</span>
+            <span>人均收入来源类别排布</span>
           </ModuleTitle>
           <UserIdentityCategory
             userIdentityCategory={userIdentityCategory}></UserIdentityCategory>
@@ -54,7 +54,7 @@ class index extends PureComponent {
             <div className='right-bottom'>
               <ModuleTitle>
                 <i className='iconfont'>&#xe790;</i>
-                <span>今日线下门户流量</span>
+                <span>全国居民人均消费明细</span>
               </ModuleTitle>
               {/* 反馈 */}
               <div className='feedback-box'>

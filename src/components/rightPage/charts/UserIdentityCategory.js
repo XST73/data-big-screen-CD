@@ -7,7 +7,7 @@ class UserSituation extends PureComponent {
     this.state = {
       config: {
         // 单位
-        unit: '（人）',
+        unit: '（元）',
         showValue: false,
         data: [],
       },

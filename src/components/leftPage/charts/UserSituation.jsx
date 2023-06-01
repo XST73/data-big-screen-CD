@@ -1,26 +1,14 @@
 import React, { PureComponent } from 'react';
 import { userOptions } from './options';
-import { ScrollBoard } from '@jiaminghi/data-view-react';
+import { ScrollBoard, ScrollRankingBoard } from '@jiaminghi/data-view-react';
 
 class UserSituation extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
       config: {
-        // 表头背景色
-        headerBGC: '#443dc5',
-        // 奇数行背景色
-        oddRowBGC: '#09184F',
-        // 偶数行背景色
-        evenRowBGC: '#070C34',
-        // 行号
-        index: true,
-        // 行号表头
-        indexHeader: '序号',
-        // 宽度
-        columnWidth: [50, 100, 200],
-        // 对其方式
-        align: ['center'],
+        // 单位
+        unit: '万亿',
         // 表行数
         rowNum: 10,
       },
@@ -37,12 +25,12 @@ class UserSituation extends PureComponent {
     return (
       <div>
         {userSitua ? (
-          <ScrollBoard
+          <ScrollRankingBoard
             config={config}
             style={{
               width: '5.475rem',
               height: '6.875rem',
-            }}></ScrollBoard>
+            }}></ScrollRankingBoard>
         ) : (
           ''
         )}
