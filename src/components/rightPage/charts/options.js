@@ -179,7 +179,7 @@ export const OfflinePortalOptions = params => ({
     containLabel: true,
   },
   legend: {
-    data: ['门店1', '门店2', '门店3', '门店4'],
+    data: ['衣食', '文娱', '生活', '其他'],
     show: true,
     textStyle: {
       color: '#BCDCFF',
@@ -229,7 +229,6 @@ export const OfflinePortalOptions = params => ({
   yAxis: [
     {
       type: 'value',
-      name: '单位/人',
       nameTextStyle: {
         color: '#BCDCFF',
       },
@@ -257,7 +256,6 @@ export const OfflinePortalOptions = params => ({
       min: 0,
       max: 100,
       interval: 20,
-      name: '密度',
       //网格样式
       splitLine: {
         show: false,
@@ -271,27 +269,27 @@ export const OfflinePortalOptions = params => ({
   ],
   series: [
     {
-      name: '门店1',
+      name: '衣食',
       type: 'line',
       data: params.data1,
     },
     {
-      name: '门店2',
+      name: '生活',
       type: 'line',
       data: params.data2,
     },
     {
-      name: '门店3',
+      name: '文娱',
       type: 'line',
       data: params.data3,
     },
     {
-      name: '门店4',
+      name: '其他',
       type: 'line',
       data: params.data4,
     },
     {
-      name: '额度',
+      name: '平均',
       type: 'bar',
       data: params.barData,
       itemStyle: {

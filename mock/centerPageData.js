@@ -3,34 +3,34 @@ module.exports = {
   'GET /api/centerPageData': {
     detailsList: [
       {
-        title: '图像转化流量',
-        number: 260,
-        unit: '点击/张',
+        title: '全国GDP总值',
+        number: 120.34,
+        unit: '万亿',
       },
       {
-        title: '视频转化流量',
-        number: 330,
-        unit: '点击/个',
+        title: '人均可支配收入',
+        number: 3.5,
+        unit: '万元',
       },
       {
-        title: '公众号流量',
-        number: 62356,
-        unit: '点击/篇',
+        title: '人均消费支出',
+        number: 2.39,
+        unit: '万元',
       },
       {
-        title: '安全服务流量',
-        number: 5453,
-        unit: '攻击/小时',
+        title: '城镇可支配收入',
+        number: 43834,
+        unit: '元',
       },
       {
-        title: '金融流量',
-        number: 4.65,
-        unit: ' 万/小时 ',
+        title: '农村可支配收入',
+        number: 17131,
+        unit: '元',
       },
       {
-        title: '通信流量',
-        number: 1250,
-        unit: 'M /分',
+        title: '全国常住总人口',
+        number: 141175,
+        unit: '万人',
       },
     ],
     mapData: {
