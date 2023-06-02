@@ -176,7 +176,7 @@ const mapData = {
     {
       name: '吉林',
       value: [126.549572, 43.837883, -364],
-      symbolSize: 14,
+      symbolSize: 2,
       itemStyle: {
         normal: {
           color: '#58B3CC',
@@ -266,7 +266,7 @@ const mapData = {
     {
       name: '北京',
       value: [116.407526, 39.90403, -14],
-      symbolSize: 2,
+      symbolSize: 8,
       itemStyle: {
         normal: {
           color: '#58B3CC',
@@ -676,7 +676,7 @@ const mapData = {
     {
       name: '广州',
       value: [113.264435, 23.129163, 13],
-      symbolSize: 2,
+      symbolSize: 14,
       itemStyle: {
         normal: {
           color: '#F58158',
@@ -736,7 +736,7 @@ const mapData = {
     {
       name: '上海',
       value: [121.473701, 31.230416, 44],
-      symbolSize: 3,
+      symbolSize: 6,
       itemStyle: {
         normal: {
           color: '#F58158',
@@ -1056,7 +1056,7 @@ const mapData = {
     {
       name: '江苏',
       value: [118.763232, 32.061707, -1],
-      symbolSize: 2,
+      symbolSize: 12,
       itemStyle: {
         normal: {
           color: '#58B3CC',
@@ -1256,7 +1256,7 @@ const mapData = {
     {
       name: '黑龙江',
       value: [126.661669, 45.742347, -198],
-      symbolSize: 8,
+      symbolSize: 2,
       itemStyle: {
         normal: {
           color: '#58B3CC',
@@ -1416,7 +1416,7 @@ const mapData = {
     {
       name: '山东',
       value: [117.020359, 36.66853, -6],
-      symbolSize: 2,
+      symbolSize: 10,
       itemStyle: {
         normal: {
           color: '#58B3CC',
@@ -1629,7 +1629,7 @@ const mapData = {
 export const mapOptions = (params) => ({
   title: {
     show: false,
-    text: '全国物流输送图',
+    text: '全国GDP发展水平比较图',
     left: 'center',
     textStyle: {
       color: '#fff',

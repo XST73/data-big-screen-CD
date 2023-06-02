@@ -1,6 +1,5 @@
 import echarts from 'echarts/lib/echarts';
 
-// 关联数据类别
 export const BrowseCategoriesOptions = params => ({
   radar: {
     center: ['50%', '50%'],
@@ -51,7 +50,7 @@ export const BrowseCategoriesOptions = params => ({
   },
   series: [
     {
-      name: '用户浏览类别',
+      name: '消费支出类别',
       type: 'radar',
       data: [params.data],
       label: {
@@ -80,7 +79,7 @@ export const BrowseCategoriesOptions = params => ({
   ],
 });
 
-// 反馈
+
 export const FeedbackOptions = params => ({
   title: {
     text: `${params.number}%`,
@@ -156,7 +155,7 @@ export const FeedbackOptions = params => ({
   ],
 });
 
-//  线下门店流量
+
 export const OfflinePortalOptions = params => ({
   color: ['#73A0FA', '#73DEB3', '#32C5E9', '#67E0E3'],
   tooltip: {
